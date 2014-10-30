@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="white" type="color">#FFFFFFFF</item>
+    <item name="teal_50" type="color">#FFe0f2f1</item>
+    <item name="teal_100" type="color">#FFb2dfdb</item>
+    <item name="teal_300" type="color">#FF4db6ac</item>
+    <item name="teal_500" type="color">#FF009688</item>
+    <item name="teal_600" type="color">#FF00897b</item>
+    <item name="teal_700" type="color">#FF00796b</item>
+</resources>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.meetupdemo.SharedElementsFragment">
+
+    <ImageView
+        android:background="@drawable/gsas"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/sharedLayoutTop" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/teal_700"
+        android:transitionName="@string/shared_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sharedLayoutTop"
+        android:id="@+id/sharedLayout">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:background="@drawable/fab_ripple"
+        android:src="@drawable/gsa"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/shared_fab"
+        android:id="@+id/sharedButton"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/sharedLayoutTop"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

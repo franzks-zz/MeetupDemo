@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.meetupdemo.SharedElementsFragment">
+
+    <LinearLayout
+        android:background="@color/teal_700"
+        android:transitionName="@string/shared_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:id="@+id/sharedLayout">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sharedLayout"
+        android:id="@+id/sharedLayoutBottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Hello world!"
+            android:textSize="30sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:background="@drawable/fab_ripple"
+        android:src="@drawable/gsa"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="@string/shared_fab"
+        android:id="@+id/sharedButton"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/sharedLayout"
+        android:layout_alignParentEnd="true"
+        android:onClick="sharedButtonOnClick"/>
+
+</RelativeLayout>

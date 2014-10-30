@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.google.meetupdemo.EnhancedNotificationsFragment">
+
+    <Button
+        android:background="@drawable/notif_button_background_100"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/show_notification"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="30dp"
+        android:id="@+id/showNotificationButton" />
+
+    <Button
+        android:background="@drawable/notif_button_background_50"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/show_enhanced_notification"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_vertical|right"
+        android:paddingRight="30dp"
+        android:id="@+id/showHeadsUpNotificationButton" />
+</LinearLayout>

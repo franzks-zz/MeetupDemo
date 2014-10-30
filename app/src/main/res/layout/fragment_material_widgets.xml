@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_box"/>
+
+    <Button
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_1"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/option_2"
+            android:layout_gravity="center_horizontal" />
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_box"
+        android:layout_gravity="center_horizontal" />
+
+    <Switch
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_toggle"
+        android:layout_gravity="center_horizontal" />
+
+    <ToggleButton
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toggle"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <SeekBar
+        android:layout_marginTop="@dimen/material_widgets_margin"
+        android:layout_marginBottom="@dimen/material_widgets_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+</ScrollView>
